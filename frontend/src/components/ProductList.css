@@ -1,0 +1,13 @@
+.product-list-container {
+  /* This centers the container horizontally on the page */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* You may need to specify a max-width for the container */
+  /* For example, for a standard page width */
+  max-width: 1200px; 
+}
+.product-list-container .MuiGrid-container {
+  /* This centers the grid items if there is extra space on the last row */
+  justify-content: center;
+}
